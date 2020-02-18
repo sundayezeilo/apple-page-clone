@@ -1,2 +1,2 @@
 # apple-page-clone
-Building with Backgrounds and Gradients [solo project]
+The Odin Project - Building with Backgrounds and Gradient (HTML and CSS).
