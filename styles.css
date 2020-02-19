@@ -28,14 +28,20 @@ body {
   max-height: 1472px;
 }
 
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
 .apple-nav-bar {
   position: relative;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
   height: 36px;
   z-index: 2;
-  top: 18px;
+  top: 78px;
   width: 980px;
   margin: 0 auto;
   border-radius: 4px;
@@ -43,55 +49,68 @@ body {
 
 .nav-ul {
   display: flex;
-  width: 845px;
+  width: 100%;
+  height: 100%;
   z-index: 0;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom, #b8b8b8, #5e5e5e);
+  box-sizing: border-box;
 }
 
 .nav-list {
   position: relative;
   margin: 3px auto;
   list-style: none;
+  width: 11%;
+  height: 36px;
   display: flex;
-  width: auto;
   align-items: center;
-  justify-content: stretch;
+  justify-content: center;
   cursor: pointer;
-  border-radius: 1px solid yellow;
 }
-
-/* .nav-icon {
-    display: flex;
-    background-image: linear-gradient(to bottom, #b8b8b8, #5e5e5e);
-    background-position: 50% 5%;
-    background-size: auto;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-    background-repeat: no-repeat;
-  } */
 
 .nav-btn .apple-logo {
-  width: 22px;
+  width: 20px;
 }
 
-.search-label {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.searchtext {
-  display: flex;
-  align-items: center;
+.nav-btn {
   width: 100%;
-  height: 19px;
-  padding: 2px 18px 1px 22px;
-  background-image: none;
-  border-radius: 12px;
-  box-sizing: border-box;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #b8b8b8, #5e5e5e);
 }
+
+.text-box {
+  width: 100%;
+  display: flex;
+  background: white;
+}
+
+.article-header {
+  position: relative;
+  text-align: center;
+  top: 140px;
+}
+
+
+.article-header h1 {
+  position: relative;
+}
+
+.article-header h2 {
+  position: relative;
+  top: 100px;
+}
+
+.center-text-img {
+  position: relative;
+  top: 120px;
+}
+
+
+
 
 .main .your-verse {
   right: auto;
@@ -142,7 +161,6 @@ a:active {
 .promos {
   position: absolute;
   display: flex;
-  width: 100%;
   height: 200px;
   bottom: 90px;
   bottom: 90px;
