@@ -28,7 +28,6 @@ body {
   max-height: 1472px;
 }
 
-
 .page {
   display: flex;
   justify-content: center;
@@ -94,7 +93,6 @@ body {
   top: 140px;
 }
 
-
 .article-header h1 {
   position: relative;
 }
@@ -108,9 +106,6 @@ body {
   position: relative;
   top: 120px;
 }
-
-
-
 
 .main .your-verse {
   right: auto;
