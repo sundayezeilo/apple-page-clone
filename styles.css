@@ -5,24 +5,22 @@
   /* border: 1px solid red; */
 }
 
-html,
 body {
-  z-index: 1;
-  min-width: 1024px;
-  height: 100%;
-  background: #fff;
+  color: #333;
+  background-color: #fff;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+    Verdana, sans-serif;
 }
 
-.article-wrap {
+.hero {
   width: 1440px;
-  height: 510px;
+  height: 538px;
   margin: 0 auto;
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+    50% 100% no-repeat;
 }
 
 .apple-nav-bar {
-  position: relative;
-  top: 56px;
   margin-left: auto;
   margin-right: auto;
   width: 980px;
@@ -30,15 +28,21 @@ body {
   display: flex;
   justify-content: center;
   background-color: #fff;
-  background-image: linear-gradient(rgba(94, 94, 94, 0.5) 8%,
-      rgba(94, 94, 94, 0.8) 50%,
-      rgba(94, 94, 94, 0.6) 50%,
-      rgba(94, 94, 94, 0.5) 95%);
+  background-image: linear-gradient(
+    rgba(94, 94, 94, 0.5) 8%,
+    rgba(94, 94, 94, 0.8) 50%,
+    rgba(94, 94, 94, 0.6) 50%,
+    rgba(94, 94, 94, 0.5) 95%
+  );
+}
+
+.nav-container {
+  padding-top: 82px;
 }
 
 .nav-list {
   display: flex;
-  flex-grow: 1;
+  flex: 1 1 100%;
   align-items: center;
   justify-content: center;
   border-right: 1px solid#333;
@@ -46,32 +50,109 @@ body {
 
 .nav-list a {
   font-size: 12px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
   color: #fff;
   text-decoration: none;
 }
 
+/* .apple-img {
+  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png) no-repeat 50% 0;
+} */
+
+.article-header {
+  padding-top: 30px;
+}
+
+.article-header a {
+  display: block;
+}
+
+.heading-link {
+  height: 104px;
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subheading-link {
+  height: 82px;
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.center-text-link {
+  margin-top: 25px;
+  height: 34px;
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
 
 .promos {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   overflow: hidden;
+  padding-top: 2px;
 }
 
 .promo-links {
   display: flex;
-  justify-content: center;
 }
 
-.footer-section {
-  width: 1440px;
+#footer-section {
   margin: 0 auto;
-  display: flex;
+  min-width: 980px;
+  width: 1440px;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.left-footer,
-.right-footer,
+.footer-wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.left-footer {
+  float: left;
+  clear: both;
+  width: 49%;
+  text-align: left;
+}
+
+.right-footer {
+  float: right;
+  width: 51%;
+  text-align: right;
+}
+
 .footer-list {
-  display: flex;
-  /* justify-content: center;   */
+  display: inline;
+}
+
+.legal-clause {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1em;
+  display: block;
+  text-align: left;
+}
+
+.footer-wrap a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-wrap a:hover {
+  text-decoration: underline;
+}
+
+.footer-list:last-of-type {
+  /* border: none; */
 }
