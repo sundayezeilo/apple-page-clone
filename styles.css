@@ -58,11 +58,9 @@ body {
   text-decoration: none;
 }
 
-.apple-img {
-  /* background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png) no-repeat 50% 0; */
-  width: 22px;
+.nav-link .apple-img {
+  height: 22px;
 }
-
 
 .search-icon {
   height: 22px;
@@ -110,12 +108,33 @@ body {
 .promos {
   width: 1440px;
   margin: 0 auto;
-  overflow: hidden;
   padding-top: 2px;
 }
 
 .promo-links {
   display: flex;
+  /* flex: 1 1 100%; */
+}
+
+.promo-links .promo-images {
+  height: 200px;
+  width: 100%;
+}
+
+.promo-links .image-1 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+}
+
+.promo-links .image-2 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+}
+
+.promo-links .image-3 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
+}
+
+.promo-links .image-4 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
 }
 
 #footer-section {
