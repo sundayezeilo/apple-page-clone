@@ -2,22 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body {
   color: #333;
   background-color: #fff;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
-    Verdana, sans-serif;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero {
   width: 1440px;
   height: 538px;
   margin: 0 auto;
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
-    50% 100% no-repeat;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  cursor: pointer;
 }
 
 .nav-container {
@@ -33,12 +31,7 @@ body {
   flex: 2 1 auto;
   justify-content: center;
   background-color: #fff;
-  background-image: linear-gradient(
-    rgba(70, 70, 70, 0.5) 8%,
-    rgba(70, 70, 70, 0.8) 50%,
-    rgba(70, 70, 70, 0.6) 50%,
-    rgba(70, 70, 70, 0.5) 95%
-  );
+  background-image: linear-gradient (rgba(70, 70, 70, 0.5) 8%,rgba(70, 70, 70, 0.8) 50%,rgba(70, 70, 70, 0.6) 50%,rgba(70, 70, 70, 0.5) 95%);
 }
 
 .nav-list {
@@ -46,70 +39,71 @@ body {
   flex: 1 1 100%;
   cursor: pointer;
   align-items: center;
-  overflow: hidden;
   justify-content: center;
   border-right: 1px solid gray;
 }
 
 .nav-link {
   font-size: 12px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
-    sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   color: #fff;
   text-decoration: none;
 }
 
 .apple-nav-bar .on-hover:hover {
-  background-image: linear-gradient(
-    rgb(40, 40, 40, 0.5) 20%,
-    rgb(40, 40, 40, 0.8) 40%,
-    rgb(40, 40, 40, 0.6) 60%,
-    rgb(40, 40, 40, 0.5) 95%
-  );
+  background-image: linear-gradient (rgb(40, 40, 40, 0.5) 20%,rgb(40, 40, 40, 0.8) 40%,rgb(40, 40, 40, 0.6) 60%,rgb(40, 40, 40, 0.5) 95%);
 }
 
 .nav-link .apple-img {
   height: 22px;
 }
+
 .search-box {
-  display: flex;
-  align-items: center;
+  position: relative;
 }
 
 .search-icon {
-  position: relative;
-  left: 26px;
-  bottom: 3px;
+  position: absolute;
+  top: 2px;
+  left: 20px;
   color: #fff;
-  /* border-radius: 5px; */
-  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6%2BR8AAAAlElEQVR42oWQQRHEIAxF10ElVAISVgo3bCABCUhYCZWAhEpAQpoD6bzJhNnDO0DyyA8fEXkppXyVCpLViDUfyqVIQN9JFMY637hrlCySFauL21E7KVWbAIGx56rnSLqc5KPXSLo3kySalPhTygFhRDtFC09EIsMeZJSGBj7Qveh3OJW89syImiH%2BIO2BOJX0XwA2%2BQEL4pAhSX4aBQAAAABJRU5ErkJggg%3D%3D); */
+  z-index: 2;
 }
 
 #searchbar {
   width: 90px;
-  /* margin: 0 10px; */
   height: 22px;
+  z-index: 1;
   border-color: gray;
   background: none;
   border-radius: 12px;
-  padding: 2px 18px 1px 22px;
+  margin: 2px 15px 1px 18px;
+  transition: 0.6s;
 }
 
-/* #searchbar:focus{
-  width: 100%;
+#searchbar:focus {
+  width: 180px;
   background-color: #fff;
-} */
+}
 
 .article-header {
-  padding-top: 30px;
+  padding-top: 38px;
+}
+
+.article-header h1 {
+  padding-top: 3px;
 }
 
 .article-header a {
   display: block;
 }
 
+.ghost {
+  display: none;
+}
+
 .heading-link {
-  height: 104px;
+  height: 82px;
   background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -124,7 +118,7 @@ body {
 
 .center-text-link {
   margin-top: 25px;
-  height: 34px;
+  height: 32px;
   background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -138,7 +132,6 @@ body {
 
 .promo-links {
   display: flex;
-  /* flex: 1 1 100%; */
 }
 
 .promo-links .promo-images {
@@ -214,6 +207,11 @@ body {
   text-decoration: underline;
 }
 
-.footer-list:last-of-type {
-  /* border: none; */
+.right-footer .img-wrap {
+  position: relative;
+  margin-left: 4px;
+}
+
+.footer-img {
+  position: absolute;
 }
