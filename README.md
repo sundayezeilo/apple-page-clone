@@ -1,4 +1,4 @@
-Apple Archive page clone
+#Apple Archive page clone
 
 This project consists of building a webpage using images as a background and adding gradients to elements.
 
