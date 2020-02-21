@@ -33,10 +33,10 @@ body {
   justify-content: center;
   background-color: #fff;
   background-image: linear-gradient(
-    rgba(94, 94, 94, 0.5) 8%,
-    rgba(94, 94, 94, 0.8) 50%,
-    rgba(94, 94, 94, 0.6) 50%,
-    rgba(94, 94, 94, 0.5) 95%
+    rgba(70, 70, 70, 0.5) 8%,
+    rgba(70, 70, 70, 0.8) 50%,
+    rgba(70, 70, 70, 0.6) 50%,
+    rgba(70, 70, 70, 0.5) 95%
   );
 }
 
@@ -47,7 +47,7 @@ body {
   align-items: center;
   overflow: hidden;
   justify-content: center;
-  border-right: 1px solid#333;
+  border-right: 1px solid gray;
 }
 
 .nav-link {
@@ -58,21 +58,39 @@ body {
   text-decoration: none;
 }
 
+.apple-nav-bar .on-hover:hover {
+  background-image: linear-gradient(
+    rgb(40, 40, 40, 0.5) 20%,
+    rgb(40, 40, 40, 0.8) 40%,
+    rgb(40, 40, 40, 0.6) 60%,
+    rgb(40, 40, 40, 0.5) 95%
+  );
+}
+
 .nav-link .apple-img {
   height: 22px;
 }
+.search-box {
+  display: flex;
+  align-items: center;
+}
 
 .search-icon {
-  height: 22px;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGc%2BCgk8cG9seWdvbiBmaWxsPSIjNjY2IiBwb2ludHM9IjkuMjA3LDYuMTI2IDcuNzkzLDcuNTQxIDExLjc5MywxMS41NDEgMTMuMjA3LDEwLjEyNiIgLz4KCTxwYXRoIGZpbGw9IiM2NjYiIGQ9Ik01LjkxNywyYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsNy44MzMsNS45MTcsNy44MzNTMyw2LjUyNSwzLDQuOTE3UzQuMzA4LDIsNS45MTcsMgoJCSBNNS45MTcsMEMzLjIwMSwwLDEsMi4yMDEsMSw0LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMi4yMDEsOC42MzIsMCw1LjkxNywwTDUuOTE3LDB6IiAvPgo8L2c%2BCjwvc3ZnPgo%3D);
+  position: relative;
+  left: 26px;
+  bottom: 3px;
+  color: #fff;
+  /* border-radius: 5px; */
+  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6%2BR8AAAAlElEQVR42oWQQRHEIAxF10ElVAISVgo3bCABCUhYCZWAhEpAQpoD6bzJhNnDO0DyyA8fEXkppXyVCpLViDUfyqVIQN9JFMY637hrlCySFauL21E7KVWbAIGx56rnSLqc5KPXSLo3kySalPhTygFhRDtFC09EIsMeZJSGBj7Qveh3OJW89syImiH%2BIO2BOJX0XwA2%2BQEL4pAhSX4aBQAAAABJRU5ErkJggg%3D%3D); */
 }
 
 #searchbar {
-  width: 100px;
+  width: 100%;
   height: 22px;
   border-color: gray;
   background: none;
   border-radius: 12px;
+  padding: 2px 18px 1px 22px;
 }
 
 .article-header {
