@@ -1,7 +1,7 @@
 Apple Archive page clone
 
 This project consists of building a webpage using images as a background and adding gradients to elements.
-/home/zeilotech/Pictures/Screenshot from 2020-02-21 18-01-23.png
+https://user-images.githubusercontent.com/58076206/75056632-b7687700-54d7-11ea-85ee-f8689e7218f8.png
 
 The goal is to make a clone of old an old version of the Apple website webpage.
 
