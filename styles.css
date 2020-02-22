@@ -49,6 +49,10 @@ body {
   border-right: 1px solid gray;
 }
 
+.nav-list a {
+  font-size: 1em;
+}
+
 .nav-link {
   font-size: 12px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -142,7 +146,7 @@ body {
 
 .promo-links .promo-images {
   height: 200px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .promo-links .image-1 {
