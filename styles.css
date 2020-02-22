@@ -10,13 +10,8 @@ body {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-.page {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 .hero {
-  max-width: 100%;
+  width: 1440px;
   height: 538px;
   margin: 0 auto;
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
@@ -25,13 +20,12 @@ body {
 
 .nav-container {
   padding-top: 83px;
-  width: 68%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .apple-nav-bar {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
   height: 36px;
   display: flex;
   flex: 2 1 auto;
@@ -47,10 +41,6 @@ body {
   align-items: center;
   justify-content: center;
   border-right: 1px solid gray;
-}
-
-.nav-list a {
-  font-size: 1em;
 }
 
 .nav-link {
@@ -81,7 +71,7 @@ body {
 }
 
 #searchbar {
-  width: 7em;
+  width: 90px;
   height: 22px;
   z-index: 1;
   border-color: gray;
@@ -92,8 +82,10 @@ body {
 }
 
 #searchbar:focus {
-  width: 14em;
+  width: 180px;
   background-color: #fff;
+  outline: none;
+  border: none;
 }
 
 .article-header {
@@ -135,7 +127,7 @@ body {
 }
 
 .promos {
-  width: 100%;
+  width: 1440px;
   margin: 0 auto;
   padding-top: 2px;
 }
@@ -146,7 +138,7 @@ body {
 
 .promo-links .promo-images {
   height: 200px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .promo-links .image-1 {
@@ -167,8 +159,8 @@ body {
 
 #footer-section {
   margin: 0 auto;
-  min-width: 68%;
-  width: 1em;
+  min-width: 980px;
+  width: 1440px;
   height: 90px;
   padding: 0;
   color: #6e6e6e;
@@ -178,7 +170,7 @@ body {
 }
 
 .footer-wrap {
-  width: 100%;
+  width: 980px;
   margin: 0 auto;
 }
 
