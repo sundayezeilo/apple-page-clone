@@ -189,15 +189,29 @@ body {
 
 .footer-list {
   display: inline;
+  padding: 0 5px 0 5px;
+  border-left: 1px solid #ccc;
+}
+
+.footer-list:first-of-type {
+  border-left: none;
 }
 
 .legal-clause {
+  display: block;
   float: left;
   clear: both;
   width: 49%;
   padding-top: 1em;
-  display: block;
-  text-align: left;
+  text-align: left;  
+}
+
+.legal-clause a{
+  padding: 0 5px 0 5px;
+}
+
+.legal-clause .privacy {
+  border-left: 1px solid #ccc;
 }
 
 .footer-wrap a {
