@@ -54,8 +54,51 @@ body {
   background-image: linear-gradient(rgb(40, 40, 40, 0.5) 20%,rgb(40, 40, 40, 0.8) 40%,rgb(40, 40, 40, 0.6) 60%,rgb(40, 40, 40, 0.5) 95%);
 }
 
-.nav-link .apple-img {
+/* .nav-link .apple-img {
   height: 22px;
+} */
+
+.nav-list .nav-link {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-repeat: no-repeat;
+}
+
+.nav-list .apple-logo {
+  width: 100%;
+  height: 30px;
+  background-position: 50% 0;
+}
+
+.nav-list .store {
+  background-position: 50% -30px;
+}
+
+.nav-list .mac {
+  background-position: 50% -60px;
+}
+
+.nav-list .iPod {
+  background-position: 50% -90px;
+}
+
+.nav-list .iPhone {
+  background-position: 50% -120px;
+}
+
+.nav-list .iPad {
+  background-position: 50% -150px;
+}
+
+.nav-list .iTunes {
+  background-position: 50% -180px;
+}
+
+.nav-list .support {
+  background-position: 50% -210px;
 }
 
 #searchbar {
