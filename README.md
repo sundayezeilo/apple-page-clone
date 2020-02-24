@@ -1,26 +1,33 @@
-Apple Archive page clone
+# Apple Archive page clone
 
-This project consists of building a webpage using images as a background and adding gradients to elements.
+> This project consists of building a webpage using images as a background and adding gradients to elements.
 
-![image_name](img-src/project-screenshot.png?raw=true "Project Screenshot")
+![screenshot](img-src/project-screenshot.png)
 
 The goal is to make a clone of old an old version of the Apple website webpage.
 
-Built With
-HTML5,
-CSS3
-Live Demo
-https://raw.githack.com/ezeilo-su/apple-page-clone/work/index.html
+## Built With
 
-Github: @sundayezeilo
-Twitter: @twitterhandle
-Linkedin: linkedin
-bust_in_silhouette Author2
+- HTML5, CSS3
 
-Github: @githubhandle
-Twitter: @SundayEzeilo
-Linkedin: https://www.linkedin.com/in/sunday-ezeilo-a6a67664/
-handshake Contributing
+## Live Demo
 
-Issue:
-https://github.com/ezeilo-su/apple-page-clone/issues/1
+[Live Demo Link](https://raw.githack.com/ezeilo-su/apple-page-clone/work/index.html)
+
+## Authors
+
+👤 **Author1**
+
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/sundayezeilo)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sunday-ezeilo-a6a67664/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/1).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
