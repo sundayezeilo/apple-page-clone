@@ -18,15 +18,15 @@ The goal is to make a clone of old an old version of the Apple website webpage.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/sundayezeilo)
-- Linkedin: [linkedin](https://www.linkedin.com/in/sunday-ezeilo-a6a67664/)
+- Github: [@sundayezeilo](https://github.com/ezeilo-su)
+- Twitter: [@SundayEzeilo](https://twitter.com/SundayEzeilo)
+- Linkedin: [Sunday Ezeilo](https://www.linkedin.com/in/sunday-ezeilo-a6a67664/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/1).
+Feel free to check the [issues page](https://github.com/ezeilo-su/apple-page-clone/issues/1).
 
 ## Show your support
 
