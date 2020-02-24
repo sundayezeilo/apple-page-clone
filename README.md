@@ -4,7 +4,8 @@
 
 ![screenshot](img-src/project-screenshot.png)
 
-The goal is to make a clone of old an old version of the Apple website webpage.
+The goal is to make a clone of old an old version of the Apple website webpage using gradients and backgrounds.
+It is out of scope of this project though to build "responsive webpages" as regards the first reviewer's comment on the page having "Horizontal Scrollbar" on smaller-width devices.
 
 ## Built With
 
